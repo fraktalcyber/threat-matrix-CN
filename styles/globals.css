@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #cbd5e1;
+  box-shadow: 0 0 0 2px inset #e2e8f0;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Corner */
+::-webkit-scrollbar-corner {
+  background: #e2e8f0;
+}
+
+
+/* Corner */
+.dialog::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #cbd5e1;
+  box-shadow: 0 0 0 2px inset #fff;
+}
+
+.dialog::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
