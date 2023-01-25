@@ -15,3 +15,11 @@ yarn dev
 
 <img width="667" alt="matrix" src="https://user-images.githubusercontent.com/33197701/174604122-94a2c066-feca-4ed1-a6a0-c4e3197fe9c1.png">
 
+## Docker-compose -option
+
+Install docker: https://www.docker.com/products/docker-desktop/
+
+Run start with docker-compose:
+```bash
+docker compose up
+```
